@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { FooldalComponent } from './fooldal/fooldal.component';
 import { FejlecComponent } from './fejlec/fejlec.component';
 import { LablecComponent } from './lablec/lablec.component';
+import { HibaFelvitelComponent } from './hiba-felvitel/hiba-felvitel.component';
+import { HibaListaComponent } from './hiba-lista/hiba-lista.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +18,14 @@ import { LablecComponent } from './lablec/lablec.component';
     FooldalComponent,
     FejlecComponent,
     LablecComponent
+    HibaFelvitelComponent,
+    HibaListaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
