@@ -4,7 +4,7 @@ import { HibaFelvitelComponent } from './hiba-felvitel/hiba-felvitel.component';
 import { HibaListaComponent } from './hiba-lista/hiba-lista.component';
 
 const routes: Routes = [
-  {path:'', component:HibaFelvitelComponent},
+  {path:'feltolt', component:HibaFelvitelComponent},
   {path:'modosit/:id', component:HibaFelvitelComponent},
   {path:'lista', component:HibaListaComponent}
 ];
