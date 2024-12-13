@@ -5,7 +5,6 @@
             <div class="col-md-6">
               <h2 class="text-center mb-4">Kapcsolatfelvétel</h2>
               
-              <form action="" method="post">
                 <div class="form-group">
                   <label for="name">Név</label>
                   <input type="text" class="form-control" name="name" id="name" placeholder="Írd le a neved" required>
@@ -21,8 +20,7 @@
                   <textarea class="form-control" name="message" id="message" rows="5" placeholder="Üzenet, amit a fejlesztőknek el szeretnél küldeni" required></textarea>
                 </div>
       
-                <button type="submit" class="btn btn-secondary w-100 mt-3 btn-block">Küldés</button>
-              </form>
+                <button class="btn btn-secondary w-100 mt-3 btn-block" (click)="callAPI()">Küldés</button>
             </div>
           </div>
         </div>
