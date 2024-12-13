@@ -1,10 +1,6 @@
 # Viz
 
-<<<<<<< HEAD
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
-=======
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
 
 ## Development server
 

@@ -1,23 +1,16 @@
 import { TestBed } from '@angular/core/testing';
-<<<<<<< HEAD
-=======
 import { RouterModule } from '@angular/router';
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-<<<<<<< HEAD
-      imports: [AppComponent],
-=======
       imports: [
         RouterModule.forRoot([])
       ],
       declarations: [
         AppComponent
       ],
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
     }).compileComponents();
   });
 
@@ -27,11 +20,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-<<<<<<< HEAD
-  it(`should have the 'viz' title`, () => {
-=======
   it(`should have as title 'viz'`, () => {
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('viz');

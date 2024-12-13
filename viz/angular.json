@@ -5,9 +5,6 @@
   "projects": {
     "viz": {
       "projectType": "application",
-<<<<<<< HEAD
-      "schematics": {},
-=======
       "schematics": {
         "@schematics/angular:component": {
           "standalone": false
@@ -19,7 +16,6 @@
           "standalone": false
         }
       },
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -43,16 +39,7 @@
             "styles": [
               "src/styles.css"
             ],
-<<<<<<< HEAD
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
-=======
             "scripts": []
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
           },
           "configurations": {
             "production": {
@@ -115,11 +102,5 @@
         }
       }
     }
-<<<<<<< HEAD
-  },
-  "cli": {
-    "analytics": "6ad8011a-e33a-4710-9b6b-a1d071d2a2ee"
-=======
->>>>>>> 6068181f0d2784576709de2e8bc77057d35755da
   }
 }
