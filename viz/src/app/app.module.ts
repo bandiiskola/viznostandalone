@@ -24,7 +24,7 @@ import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
     HibaFelvitelComponent,
     HibaListaComponent,
     ChatComponent,
-    DiagrammComponent
+    DiagrammComponent,
     KapcsolatComponent
   ],
   imports: [
