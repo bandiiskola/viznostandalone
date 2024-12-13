@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { FooldalComponent } from './fooldal/fooldal.component';
+import { FejlecComponent } from './fejlec/fejlec.component';
+import { LablecComponent } from './lablec/lablec.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooldalComponent,
+    FejlecComponent,
+    LablecComponent
   ],
   imports: [
     BrowserModule,
