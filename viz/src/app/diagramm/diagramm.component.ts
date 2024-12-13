@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
 })
 export class DiagrammComponent {
   constructor(private apiService: ApiService){}
-  adatok:any[] =[];
+  adatok:any[] = [];
   ngOnInit(): void {
     const url=`https://berenandor.moriczcloud.hu/viz/diagram`;
     console.log(url);
