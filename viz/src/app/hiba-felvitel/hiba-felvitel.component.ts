@@ -27,6 +27,7 @@ export class HibaFelvitelComponent implements OnInit{
         (document.getElementById('nev') as HTMLInputElement).value=this.adatok[1];
         (document.getElementById('cim') as HTMLInputElement).value=this.adatok[2];
         (document.getElementById('leiras') as HTMLInputElement).value=this.adatok[3];
+        (document.getElementById('varos') as HTMLInputElement).value=this.adatok[4];
       },
       error =>{
         console.error('Hiba az API hívás során:')
@@ -39,9 +40,10 @@ export class HibaFelvitelComponent implements OnInit{
     let nev = (document.getElementById('nev') as HTMLInputElement).value;
     let cim = (document.getElementById('cim') as HTMLInputElement).value;
     let leiras = (document.getElementById('leiras') as HTMLSelectElement).value;
+    let varos = (document.getElementById('varos') as HTMLSelectElement).value;
     if(this.id==null)
     {
-      const url=`https://berenandor.moriczcloud.hu/viz/feltolt/${nev}/${cim}/${leiras}`;
+      const url=`https://berenandor.moriczcloud.hu/viz/feltolt/${nev}/${cim}/${leiras}/${varos}`;
     this.apiService.apiHivas(url).subscribe(
       response =>{
         console.log('Api válasz: ',response);
@@ -53,7 +55,7 @@ export class HibaFelvitelComponent implements OnInit{
     }
     else
     {
-      const url=`https://berenandor.moriczcloud.hu/viz/modosit/${this.id}/${nev}/${cim}/${leiras}`;
+      const url=`https://berenandor.moriczcloud.hu/viz/modosit/${this.id}/${nev}/${cim}/${leiras}/${varos}`;
     this.apiService.apiHivas(url).subscribe(
       response =>{
         console.log('Api válasz: ',response);
