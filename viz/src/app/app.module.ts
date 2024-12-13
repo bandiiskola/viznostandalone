@@ -12,6 +12,7 @@ import { LablecComponent } from './lablec/lablec.component';
 import { HibaFelvitelComponent } from './hiba-felvitel/hiba-felvitel.component';
 import { HibaListaComponent } from './hiba-lista/hiba-lista.component';
 import { ChatComponent } from './chat/chat.component';
+import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ChatComponent } from './chat/chat.component';
     LablecComponent,
     HibaFelvitelComponent,
     HibaListaComponent,
-    ChatComponent
+    ChatComponent,
+    KapcsolatComponent
   ],
   imports: [
     BrowserModule,
