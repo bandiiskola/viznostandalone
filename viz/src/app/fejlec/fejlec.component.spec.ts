@@ -8,7 +8,7 @@ describe('FejlecComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FejlecComponent]
+      declarations: [FejlecComponent]
     })
     .compileComponents();
 

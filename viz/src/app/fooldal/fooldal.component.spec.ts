@@ -8,7 +8,7 @@ describe('FooldalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FooldalComponent]
+      declarations: [FooldalComponent]
     })
     .compileComponents();
 
