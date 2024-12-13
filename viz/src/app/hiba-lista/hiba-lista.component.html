@@ -1,1 +1,22 @@
-<p>hiba-lista works!</p>
+<div class="container">
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Név</th>
+                <th scope="col">Cím</th>
+                <th scope="col" class="w-50">Leírás</th>
+                <th scope="col">Módósítás</th>
+                <th scope="col">Törlés</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let adat of adatok">
+                <td>{{ adat.nev }}</td>
+                <td>{{ adat.cim }}</td>
+                <td>{{ adat.leiras }}</td>
+                <td><a href="/modosit/{{adat.id}}" class="btn btn-primary">Módosít</a></td>
+                <td><a (click)="torol(adat.id)" class="btn btn-danger">Töröl</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
