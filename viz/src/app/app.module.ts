@@ -17,7 +17,7 @@ import { HibaListaComponent } from './hiba-lista/hiba-lista.component';
     AppComponent,
     FooldalComponent,
     FejlecComponent,
-    LablecComponent
+    LablecComponent,
     HibaFelvitelComponent,
     HibaListaComponent
   ],
